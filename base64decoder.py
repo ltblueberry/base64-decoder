@@ -34,6 +34,12 @@ if outputFile is None:
         "     output file path is not defined" + printColor.END
     sys.exit(1)
 
+if os.path.exists(inputFile) == False:
+    print printColor.RED + \
+        "File {} was not found".format(
+            os.path.abspath(inputFile)) + printColor.END
+    sys.exit(1)
+
 file = open(inputFile, "r")
 base64 = file.read()
 
