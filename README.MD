@@ -1,4 +1,4 @@
-# base64decoder
+# base64decoder [![Build Status](https://travis-ci.org/ltblueberry/base64-decoder.svg?branch=master)](https://travis-ci.org/ltblueberry/base64-decoder)
 It's a simple python script that takes specified input file (where base64 supposed to be stored) and decode it to specified output file.
 
 # Make executable
@@ -16,12 +16,12 @@ or
 ```
 
 # Example
-Let's imagine we have **test.b64** file with next content (*Hello World!* string)
+Let's imagine we have **text.b64** file with next content (*Hello World!* string)
 ```
 SGVsbG8gV29ybGQh
 ```
-We want to decode it to **output.txt** text file. We execute next command
+We want to decode it to **result.txt** text file. We execute next command
 ```
-./base64decoder.py -i test.b64 -o output.txt
+./base64decoder.py -i text.b64 -o result.txt
 ```
 And we get result output file.
