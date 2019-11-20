@@ -25,3 +25,7 @@ We want to decode it to **result.txt** text file. We execute next command
 ./base64decoder.py -i text.b64 -o result.txt
 ```
 And we get result output file.
+
+## License
+**[MIT License](LICENSE)**
+Copyright (c) 2019 [ltblueberry](https://github.com/ltblueberry)
