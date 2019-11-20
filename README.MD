@@ -27,5 +27,7 @@ We want to decode it to **result.txt** text file. We execute next command
 And we get result output file.
 
 ## License
+
 **[MIT License](LICENSE)**
+
 Copyright (c) 2019 [ltblueberry](https://github.com/ltblueberry)
